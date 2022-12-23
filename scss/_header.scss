@@ -1,0 +1,70 @@
+.header{
+    text-align: center;
+    width: auto;
+    .logo {
+        justify-content: center;
+        .logo1 {
+            border-radius: 50%;
+        }
+    .titulo {
+            color: $letra;
+            font-size: larger;
+            font-family: "sifonn";
+        }
+    .subt{
+            color: $letra;
+            font-size: large;
+            font-family: "bebas";
+        }
+    }
+    .nav {
+        text-align: center;
+
+    }
+
+      .menu {
+            background-color: $letra;
+            color: $fondo;
+            list-style-type: none;
+            padding: 0;
+            width: 90%;
+            margin: 20px auto;
+            text-align: center;
+            justify-content: space-between;
+            .li a{
+                padding: 20px;
+                margin: 10px;
+                background-color: $letra;
+                color: $fondo;
+                display: inline-block;
+                font-size: medium;
+            }
+            .a{
+                color: $fondo;
+                background-color: $letra;
+                text-decoration: none;
+                display: inline-block;
+                padding: auto;
+                &:hover{
+                    font-size: large;
+                }
+              }
+            .item{
+                display: inline-block;
+                position: relative;
+                font-size: medium;
+                text-align: center;
+                background-color: $letra;
+                color: $fondo;
+                &:hover a{
+                    font-size: large;
+
+                            
+            }
+
+        }
+        
+    }
+  }
+
+  /*no entiendo por que los divs de la ul me quedan en blanco que parecen botones/
